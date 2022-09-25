@@ -4,7 +4,7 @@ import React from 'react'
 import Projectitem from './Projectitem'
 import whatsapp from '../public/assets/projects/whatsapp.png'
 import twitter from '../public/assets/projects/twitter.png'
-import airbnb from '../public/assets/projects/airbnb.png'
+import nft from '../public/assets/projects/nft.png'
 import library from '../public/assets/projects/library.png'
 
 function Projects() {
@@ -16,7 +16,7 @@ function Projects() {
             <div className='grid md:grid-cols-2 gap-8'>
            <Projectitem title='Chat Clone (WhatsApp)' backgroundImg={whatsapp} projectUrl='/whatsapp' />
            <Projectitem title='Twitter Clone' backgroundImg={twitter} projectUrl='/twitter' />
-           <Projectitem title='Airbnb Clone' backgroundImg={airbnb} projectUrl='/airbnb' />
+           <Projectitem title='Ultraverse' backgroundImg={nft} projectUrl='/ultraverse' />
            <Projectitem title='Library Book Store' backgroundImg={library} projectUrl='/library' />
             </div>
         </div>

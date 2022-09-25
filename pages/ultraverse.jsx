@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import airbnbImg from '../public/assets/projects/airbnb.png';
+import nftImg from '../public/assets/projects/nft.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const airbnb = () => {
+const nft = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const airbnb = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={airbnbImg}
+          src={nftImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Airbnb Clone</h2>
-          <h3>React JS / Redux / Firebase</h3>
+          <h2 className='py-2'>Ultraverse</h2>
+          <h3>React JS / Git / API Routing </h3>
         </div>
       </div>
 
@@ -27,17 +27,17 @@ const airbnb = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          The AirBnb clone was designed using React(+hooks) and many other frameworks. It was built to many demonstrate the styling and front-end development of a website using many more pictures and animations then data layers. This responsive website is a direct representation of the offcial website with Date Searching, Guest Filtering and also showing results to the filters applied while featuring Flexbox and Styling alike the original website.
+          Ultraverse is a fully dynamic Full-Stack NFT marketplace built with React JS, JavaScript, API Dynamic routing, and Styled Components. This is a massive project that retrieves data from numerous backdoor APIs and it is routed using React. Using Skeleton Loading and also using advanced transitions and scrolling carousels, it makes it very responsive on all devices and smooth navigation along with a Countdown timer for all NFT items that is dynamically installed. The project is fully responsive and it is hosted on Vercel.
           </p>
           <a
-            href='https://github.com/blonidier/airbnb-clone'
+            href='https://github.com/blonidier/brennan-internship'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://airbnb-clone-13305.web.app/'
+            href='https://brennan-internship.vercel.app'
             target='_blank'
             rel='noreferrer'
           >
@@ -53,13 +53,16 @@ const airbnb = () => {
                 <RiRadioButtonFill className='pr-1' /> React
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> CSS
+                <RiRadioButtonFill className='pr-1' /> Styled Components
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+                <RiRadioButtonFill className='pr-1' /> APIs
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Git
               </p>
             </div>
           </div>
@@ -72,4 +75,4 @@ const airbnb = () => {
   );
 };
 
-export default airbnb;
+export default nft;

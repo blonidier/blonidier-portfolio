@@ -80,26 +80,25 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              Freelance Frontend Engineer
+              Front End Devloper Intern
             </span>
             <span className='px-2'>|</span>Remote
           </p>
-          <p className='py-1 italic'>Freelance Work (2019 - Current)</p>
+          <p className='py-1 italic'>Frontend Simplified (06/2022 - 09/2022)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript, React, and NextJS
+            Transformed a completely static HTML, CSS, JavaScript and React single page application into an interactive user interface using
+            animations, transitions and carousels
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+            Processed API requests to dynamically represent data from a cloud server and represented it through skeleton loading states, 
+            pagination and dynamic routing
             </li>
             <li>
-              Built functional and user friendly websites and apps to ensure it would be used correctly
+            Utilized Git version control and the GitHub interface to work and thrive in a collaborative team environment
             </li>
           </ul>
         </div>
-        {/* Experience */}
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
@@ -123,6 +122,30 @@ const resume = () => {
             </li>
           </ul>
         </div>
+        {/* Experience */}
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+              Freelance Frontend Engineer
+            </span>
+            <span className='px-2'>|</span>Remote
+          </p>
+          <p className='py-1 italic'>Freelance Work (2019 - Current)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+              Ensured comprehensive mobile responsive UI layouts with
+              understanding of HTML, CSS, and JavaScript, React, and NextJS
+            </li>
+            <li>
+              Troubleshoot issues and concerns, configure operation and analytic
+              plugins, and design changes as needed.
+            </li>
+            <li>
+              Built functional and user friendly websites and apps to ensure it would be used correctly
+            </li>
+          </ul>
+        </div>
+        
       </div>
     </>
   );
