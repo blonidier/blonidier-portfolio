@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import twitterImg from '../public/assets/projects/twitter.png';
+import disneyImg from '../public/assets/projects/disney.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,11 +13,11 @@ const twitter = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={twitterImg}
+          src={disneyImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Twitter Clone</h2>
+          <h2 className='py-2'>Disney+ Clone</h2>
           <h3>React JS / Redux / Firebase</h3>
         </div>
       </div>
@@ -27,17 +27,17 @@ const twitter = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          The Social Media Clone was directly designed after the popular App Twitter. Using React and other advanced frameworks such as React Router, and Firebase API/Database... whenever you paste an image URL or want to tweet something, it will post in the Feed section. On the data side of things... as soon as someone tweets something, it goes to the Live Database hosted in Firebase and responds instantly if anything goes wrong.  
+            Created using a variety of technologies and features like Redux, ReactJS, Tailwind CSS, JavaScript, and Firebase. This Disney+ replica is powered by the Google Firebase database that has movie data stored along with Google Authentification to allow users to sign in using their Google email to access this application. Using movies stored in the Firebase Database, it allows the application to recognize IDs which tells which movie is being shown.
           </p>
           <a
-            href='https://github.com/blonidier/twitter-clone'
+            href='https://github.com/blonidier/disney-clone'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://twitter-clone-d4e8a.web.app/'
+            href='https://disney-clone-3de25.web.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -53,7 +53,7 @@ const twitter = () => {
                 <RiRadioButtonFill className='pr-1' /> React
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Material UI
+                <RiRadioButtonFill className='pr-1' /> Google Authentification
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
@@ -62,7 +62,7 @@ const twitter = () => {
                 <RiRadioButtonFill className='pr-1' /> Firebase
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React Router
+                <RiRadioButtonFill className='pr-1' /> Redux
               </p>
             </div>
           </div>

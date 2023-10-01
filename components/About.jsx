@@ -8,9 +8,9 @@ function About() {
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
-                <p className='py-2 text-gray-600'> A Revolutionary Developer that is passionate about being the best at all times that I can be.</p>
-                <p className='py-2 text-gray-600'>I have played football all my life and loved being competitive but I also had a love for the tech world and computers. In 2019 I started using basic HTML and CSS to make basic, static websites for some companies local in my area. What started out as a fun hobby turned into a burning passion for programming.</p>
-                <p className='py-2 text-gray-600'>I became really motivated to be a great developer at all times and learned JavaScript very fast... but I wanted to learn more. That is when I turned my attention to React and Firebase along with Next.js to truly be ahead of the game and now I am fully prepared to make any company happy with my ability.</p>
+                <p className='py-2 text-gray-600'> A Revolutionary Developer that is passionate about innovating technology and Cyber Security.</p>
+                <p className='py-2 text-gray-600'>I started programming in high school to build cool things and taking an idea that is in my head and bringing it to reality. I visualize things and how they operate which sparks new ideas for me to build upon which then turned into something that I want to do for the rest of my life.</p>
+                <p className='py-2 text-gray-600'>Learning programming quickly was mainly driven by my relentless drive for building web applications and being the best I can be at all times. Now as I build upon this, I have turned my attention to learning cyber security while in college at Louisiana Tech as a Info Systems Major. Now I am currently learning about security and working towards my CompTIA certifications like A+, Security+, Network+, and CASP+.</p>
                 <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               Check out some of my latest projects.

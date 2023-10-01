@@ -12,11 +12,10 @@ function Main() {
                 <p className='uppercase text-sm tracking-widest text-gray-600'>LETS BUILD SOMETHING TOGETHER</p>
                 <h1 className='py-4 text-gray-700'>Hi, I am <span className='text-[blue]'> Brennan</span> </h1>
                 <h1 className='py-4 text-gray-700'>
-                    A Front-End Web Devloper
+                 A Innovator
                 </h1>
                 <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-                I’m a front-end web developer specializing in building user friendly digital apps/user interfaces. focused on building responsive front-end web applications while
-            learning back-end technologies and Web3.
+                I’m a Software/AI developer and an aspiring security analyst who has a passion for innovating technology and creating high level web applications.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

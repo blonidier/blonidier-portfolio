@@ -49,12 +49,12 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and providing the best user experience
-          for anyone that uses or views my websites. Played football all my life so I have a competitive 
-          side to me that wants to be the best version of myself.
+            Analytical, innovative, and motivated Software/AI developer that is becoming
+          advanced in Cyber Security to build skills that I will need to satisfy the need 
+          of anyone that I work for. I am always learning something new or developing a skill
+          further along with getting professional certifications. I am working towards CompTIA A+,
+          Security+, and Network+ as these are things I am also becoming great with while displaying 
+          my ability to learn fast and apply it quickly.
         </p>
 
         {/* Skills */}
@@ -62,13 +62,13 @@ const resume = () => {
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML <span className='px-2'>|</span>
+            <span className='px-2'>|</span>Linux
+            <span className='px-2'>|</span> JavaScript <span className='px-2'>|</span>
             CSS <span className='px-2'>|</span>React
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
+            <span className='px-2'>|</span>Python
+            <span className='px-2'>|</span> Bash
             <span className='px-2'>|</span> NextJS
-            <span className='px-2'>|</span> MongoDB
+            <span className='px-2'>|</span> ThreeJS
           </p>
           
         </div>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import Projectitem from './Projectitem'
 import whatsapp from '../public/assets/projects/whatsapp.png'
-import twitter from '../public/assets/projects/twitter.png'
+import disney from '../public/assets/projects/disney.png'
 import nft from '../public/assets/projects/nft.png'
 import library from '../public/assets/projects/library.png'
 
@@ -15,7 +15,7 @@ function Projects() {
             <h2  className='py-4'>What Ive Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
            <Projectitem title='Chat Clone (WhatsApp)' backgroundImg={whatsapp} projectUrl='/whatsapp' />
-           <Projectitem title='Twitter Clone' backgroundImg={twitter} projectUrl='/twitter' />
+           <Projectitem title='Disney+ Clone' backgroundImg={disney} projectUrl='/disney' />
            <Projectitem title='Ultraverse' backgroundImg={nft} projectUrl='/ultraverse' />
            <Projectitem title='Library Book Store' backgroundImg={library} projectUrl='/library' />
             </div>
